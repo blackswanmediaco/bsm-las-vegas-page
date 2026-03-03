@@ -1,0 +1,76 @@
+/* ============================================
+   STYLE.CSS — BSM Brand Design Tokens
+   Black Swan Media Co — Custom Palette
+   ============================================ */
+
+/* ---- Google Fonts (loaded in HTML) ----
+   Poppins: 300, 400, 500, 700
+   Playfair Display: 400, 700
+   ---- */
+
+:root {
+  /* === TYPOGRAPHY === */
+  --font-display: 'Poppins', sans-serif;
+  --font-accent: 'Playfair Display', serif;
+  --font-body: 'Poppins', sans-serif;
+
+  /* Fluid type scale */
+  --text-xs: clamp(0.75rem, 0.7rem + 0.15vw, 0.8125rem);    /* ~12-13px */
+  --text-sm: clamp(0.8125rem, 0.78rem + 0.15vw, 0.875rem);   /* ~13-14px */
+  --text-base: clamp(1rem, 0.95rem + 0.2vw, 1.125rem);       /* ~16-18px */
+  --text-lg: clamp(1.25rem, 1.1rem + 0.5vw, 1.5rem);         /* ~20-24px */
+  --text-xl: clamp(1.5rem, 1.3rem + 0.7vw, 1.875rem);        /* ~24-30px */
+  --text-2xl: clamp(2rem, 1.6rem + 1.5vw, 3.125rem);         /* ~32-50px */
+  --text-3xl: clamp(2.5rem, 2rem + 2vw, 3.75rem);            /* ~40-60px */
+  --text-hero: clamp(3rem, 2.5rem + 2.5vw, 4.3125rem);       /* ~48-69px */
+
+  /* === BRAND COLORS === */
+  /* Primary */
+  --emerald: #13B3E8;
+  --navy: #001E4F;
+  --midnight: #050710;
+
+  /* Secondary */
+  --coral: #E64E43;
+  --cyan: #13B3E8;
+  --steel: #6AA1BE;
+
+  /* Neutrals */
+  --black: #000000;
+  --charcoal: #07070C;
+  --dark-text: #333333;
+  --mid-gray: #666666;
+  --light-gray: #F2F2F2;
+  --white: #FFFFFF;
+
+  /* === SPACING (4px system) === */
+  --space-1: 4px;
+  --space-2: 8px;
+  --space-3: 12px;
+  --space-4: 16px;
+  --space-5: 20px;
+  --space-6: 24px;
+  --space-8: 32px;
+  --space-10: 40px;
+  --space-12: 48px;
+  --space-14: 56px;
+  --space-16: 64px;
+  --space-20: 80px;
+  --space-24: 96px;
+  --space-32: 128px;
+
+  /* === LAYOUT === */
+  --content-max: 1200px;
+  --content-narrow: 800px;
+
+  /* === TRANSITIONS === */
+  --ease-out: cubic-bezier(0.16, 1, 0.3, 1);
+  --transition-fast: 180ms var(--ease-out);
+  --transition-med: 300ms var(--ease-out);
+  --transition-slow: 400ms var(--ease-out);
+
+  /* === SHADOWS === */
+  --shadow-sm: 0 1px 3px rgba(0, 0, 0, 0.08);
+  --shadow-md: 0 4px 12px rgba(0, 0, 0, 0.12);
+  --shadow-lg: 0 8px 30px rgba(0, 0, 0, 0.16);
+}
